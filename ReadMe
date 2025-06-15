@@ -1,0 +1,60 @@
+# 🎉 Event Guest List Manager
+
+A dynamic and interactive guest list manager built with HTML, CSS, and JavaScript. Users can add guests, categorize them, toggle RSVP status, edit or remove names, and enjoy a sleek green-themed interface with a full-page party background.
+
+---
+
+## ✨ Features
+
+- ✅ Add guest names via a form
+- ✅ Categorize guests as *Friend*, *Family*, or *Colleague*
+- ✅ Automatically timestamp when guests are added
+- ✅ Toggle RSVP status (Attending/Not Attending)
+- ✅ Edit or remove guests dynamically
+- ✅ Guest limit set to 10, with alert when exceeded
+- ✅ Stylish green buttons for RSVP, Edit, and Remove
+- ✅ Responsive layout with Tailwind-style CSS
+- ✅ Background party image for immersive experience
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/event-guest-list-manager.git
+   cd event-guest-list-manager
+Open in Browser
+Simply open index.html in your preferred web browser.
+
+📁 Project Structure
+bash
+Copy
+Edit
+event-guest-list-manager/
+├── index.html         
+├── style.css          
+├── src/
+│   └── index.js       
+└── README.md        
+🖼️ Screenshot
+
+(Replace this with an actual screenshot of your app once deployed.)
+
+📸 Background Image Source
+Unsplash - Party Photo
+Photo by Ardian Lumi on Unsplash
+
+🧠 Future Ideas
+✅ "Time ago" display (e.g., "added 5 minutes ago")
+
+📋 Export guest list as CSV or PDF
+
+🌐 Host on GitHub Pages
+
+👤 Author
+Martin Mbuba
+GitHub: github.com/martinmbuba
+
+📝 License
+This project is licensed under the MIT License — feel free to use, modify, and distribute!

@@ -1,0 +1,85 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1561484934-6e80f0e981f2');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0, 128, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #006400;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button.green-btn {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+button.green-btn:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.guest-item {
+  background: #f8fff8;
+  border: 1px solid #a8d5a8;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  margin-top: 0.5rem;
+}
+
+
+      body {
+        background-image: url('https://img.freepik.com/free-vector/realistic-colorful-confetti-background_52683-26886.jpg?semt=ais_hybrid&w=740');
+        background-size: cover;
+        background-position: center;
+        backdrop-filter: blur(4px);
+      }
+
