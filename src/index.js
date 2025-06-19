@@ -1,55 +1,48 @@
-// Grabbing HTML Elements
+
 const guestForm = document.getElementById('guest-form');
 const guestInput = document.getElementById('guest-name');
 const guestCategory = document.getElementById('guest-category');
 const guestList = document.getElementById('guest-list');
-
-// Initializing the Guest List (create an array to store all your guests)
-
 let guests = [];
 
 // When the form is submitted
 
 guestForm.addEventListener('submit', function (e) {
-  e.preventDefault(); // Stops the page from refreshing
+  e.preventDefault(); 
 
-  const name = guestInput.value.trim(); // Get name
-  const category = guestCategory.value; // Get category
+  const name = guestInput.value.trim(); 
+  const category = guestCategory.value;
 
-  if (!name) return alert("Please enter a guest name."); // If name is empty
+  if (!name) return alert("Please enter a guest name.");
   if (guests.length >= 10) {
     alert("Guest limit reached (10 guests).");
     return;
   }
 
   const guest = {
-    id: Date.now(),  // Unique ID
+    id: Date.now(),  
     name,
     category,
-    rsvp: true,  // RSVP starts as true
-    addedAt: new Date().toLocaleTimeString() // Time added
+    rsvp: false,  
+    addedAt: new Date().toLocaleTimeString() 
   };
 
-  guests.push(guest);  // Add to list
-  renderGuests();  // show on page
-  guestForm.reset(); // clear the form
+  guests.push(guest); 
+  renderGuests(); 
+  guestForm.reset(); 
 });
 
 
-// Displaying the guest list
+
 
 function renderGuests() {
-  guestList.innerHTML = ''; // Clear everything first
+  guestList.innerHTML = ''; 
 
   guests.forEach(guest => {
     const li = document.createElement('li');
     li.className = `p-4 border border-green-200 rounded-lg shadow bg-white bg-opacity-80`;
-    // Add guest name and category
-    // Add time added
-    // Add RSVP status
-    // Add buttons: RSVP, Edit, Remove
-    // Add to list
-    ory
+   
+    
     const nameLine = document.createElement('p');
     nameLine.className = 'text-lg font-semibold text-green-800';
     nameLine.textContent = `${guest.name} (${guest.category})`;
