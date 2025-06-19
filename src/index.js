@@ -23,7 +23,7 @@ guestForm.addEventListener('submit', function (e) {
     id: Date.now(),  
     name,
     category,
-    rsvp: false,  
+    rsvp: true,  
     addedAt: new Date().toLocaleTimeString() 
   };
 
